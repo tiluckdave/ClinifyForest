@@ -129,5 +129,5 @@ def sitemap(request):
     return render(request, 'sitemap.xml', content_type="text/xml")
 
 def getFile(request):
-    acmeFile = "gh_tJXTn4rJpdW_d-DISLhisFG5QG380e6gMGqd6QOE.7auUOcRJDGxBFZGXdFcifizjWuT8hvR8Fpm-RT5i-UI"
+    acmeFile = "6XaHAa9Xk-yHB0TJrD_Ma7GlagCf5ETgV26M0akMdew.7auUOcRJDGxBFZGXdFcifizjWuT8hvR8Fpm-RT5i-UI"
     return HttpResponse(acmeFile, content_type='text/plain')

@@ -36,6 +36,6 @@ urlpatterns = [
     path('login', discord_login, name='discord_login'),
     path('logout', discord_logout, name='discord_logout'),
     path('.well-known/assetlinks.json', assetlinks, name="assetlinks"),
-    path('.well-known/acme-challenge/gh_tJXTn4rJpdW_d-DISLhisFG5QG380e6gMGqd6QOE', getFile),
+    path('.well-known/acme-challenge/6XaHAa9Xk-yHB0TJrD_Ma7GlagCf5ETgV26M0akMdew', getFile),
     path('login/redirect', discord_login_redirect, name='discord_login_redirect'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
